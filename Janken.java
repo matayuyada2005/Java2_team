@@ -1,3 +1,4 @@
+//問題1を選択
 import java.util.Random;//1行目から43行目山田作成
 import java.util.Scanner;
 
