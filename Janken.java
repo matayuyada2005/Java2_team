@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.Random;//1行目から43行目山田作成
 import java.util.Scanner;
 
 public class Janken {
@@ -42,7 +42,7 @@ public class Janken {
             System.out.println(playerName + " の手: " + hands[playerChoice]);
             System.out.println("コンピュータの手: " + hands[computerChoice]);
 
-            // 勝敗判定
+            // 勝敗判定　45行目から61行目島田作成
             if (playerChoice == computerChoice) {
                 System.out.println("結果: あいこです！");
                 drawCount++;
@@ -60,7 +60,7 @@ public class Janken {
             System.out.println("現在のスコア → 勝ち: " + winCount + ", 負け: " + loseCount + ", あいこ: " + drawCount);
         }
 
-        // 最終結果
+        // 最終結果　63行目から68行目山田作成
         System.out.println("\n=== 最終結果 ===");
         System.out.println("プレイヤー: " + playerName);
         System.out.println("勝ち: " + winCount + "回");
